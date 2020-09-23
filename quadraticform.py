@@ -20,7 +20,6 @@ def yN(val):
 
 if isNegative(underSqrt):
     stillSolve = input("The solution is complex. Solve anyway?(1 for Yes 0 for No): ")
-    print(yN(stillSolve))
     if yN(stillSolve):
         underSqrt = underSqrt * -1
         appendI = True

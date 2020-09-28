@@ -26,8 +26,8 @@ if isNegative(underSqrt):
     else:
         exit()
 sqrtedUndersqrt = math.sqrt(underSqrt)
-evalTopsolutionOne = bOne + underSqrt
-evalTopsolutionTwo = bOne - underSqrt
+evalTopsolutionOne = bOne + sqrtedUndersqrt
+evalTopsolutionTwo = bOne - sqrtedUndersqrt
 solutionOne = evalTopsolutionOne / aBottom
 solutionTwo = evalTopsolutionTwo / aBottom
 

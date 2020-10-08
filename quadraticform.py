@@ -34,4 +34,4 @@ solutionTwo = evalTopsolutionTwo / aBottom
 if appendI == False:
         print("The First Solution is " + str(solutionOne) + " and The Second Solution is " + str(solutionTwo))
 elif appendI == True:
-    print("The First Solution is " + str(solutionOne) + "i" + " and the Second Solution is " + str(solutionTwo) + "i")    
+    print("The First Solution is " + str(solutionOne) + "i" + " and the Second Solution is " + str(solutionTwo) + "i")
